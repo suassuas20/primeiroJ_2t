@@ -4,3 +4,12 @@ body {
 h1 {
   text-align: center;
 }
+
+
+
+.menuPrincipal{
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background: yellowgreen;
+}
