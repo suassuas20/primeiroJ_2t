@@ -1,15 +1,86 @@
 body {
-   background: white;
+  background: pink;
 }
 h1 {
   text-align: center;
 }
+.caixa1 {
+  position: absolute;
+  background: grey;
+  width: 200px;
+  height: 200px;
+  right: 0px;
+  bottom:0;
+}
+.caixa2 {
+  position: absolute;
+  background: rgb(44, 241, 26);
+  width: 200px;
+  height: 200px;
+  right: 0;
+  bottom: 205px;
+}
 
-
-
+.caixa3 {
+  position: absolute;
+  background: red;
+  width: 200px;
+  height: 200px;
+  right: 205px;
+  bottom:0;
+}
 .menuPrincipal{
-  position: relative;
-  width: 100%;
-  height: 80px;
-  background: yellowgreen;
+   position: absolute;
+   width: 100%;
+   height: 45px;
+   background: rgb(157, 170, 187);
+   top: 0;
+   left: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+li a:hover {
+  color: rgb(255, 255, 255);
+  background: black;
+}
+#urso {
+   width: 10%;
+}
+.caixaUrso {
+    position: absolute;
+    top: 45px;
+    background: yellow;
+    width: 90%;
+    height: 165px;
+    margin: 20px;
+    border-color: blueviolet;
+    border-width: 20px;
+    border-style: solid;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.caixaUrso2 {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 300px;
+  height: 165px;
+  display: flex;
+  justify-content: end;
 }
